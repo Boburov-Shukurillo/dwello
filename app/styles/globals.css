@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: montbold;
+  src: url(../fonts/montbold.ttf);
+}
+
+body {
+  font-family: montbold;
+  background-color: #FEF7F2;
+  color: #2B1B12;
+}
+
+.conatinerb {
+  @apply w-full max-w-[1440px] px-5 mx-auto;
+}

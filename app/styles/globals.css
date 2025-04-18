@@ -1,12 +1,17 @@
 @import "tailwindcss";
 
 @font-face {
+  font-family: montexbold;
+  src: url(../fonts/montexbold.ttf);
+}
+
+@font-face {
   font-family: montbold;
   src: url(../fonts/montbold.ttf);
 }
 
 body {
-  font-family: montbold;
+  font-family: montexbold;
   background-color: #FEF7F2;
   color: #2B1B12;
 }

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./styles/globals.css";
 import Navbar from "./components/navbar";
-import logo from './public/logo.svg'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +25,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/svg" href={logo} />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

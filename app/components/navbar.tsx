@@ -9,7 +9,7 @@ import profile_ic from "../imgs/user.svg";
 
 export default function Navbar() {
   return (
-    <nav className="conatinerb flex justify-between py-5">
+    <nav className="containerb flex justify-between py-5">
       <Link href="/">
         <Image src={lgog} width={100} height={29} alt="Picture of the author" />
       </Link>

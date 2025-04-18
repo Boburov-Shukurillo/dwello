@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+*{
+  outline: none;
+}
+
 @font-face {
   font-family: montexbold;
   src: url(../fonts/montexbold.ttf);
@@ -16,6 +20,6 @@ body {
   color: #2B1B12;
 }
 
-.conatinerb {
+.containerb {
   @apply w-full max-w-[1440px] px-5 mx-auto;
 }

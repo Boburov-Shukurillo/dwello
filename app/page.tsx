@@ -4,6 +4,7 @@ import locaic from "./imgs/locic.svg";
 import homeic from "./imgs/homeic.svg";
 import pricerg from "./imgs/monetary.svg";
 import About from "./components/About";
+import WhyChooseUs from "./components/WhyChooseUs";
 
 const page = () => {
   return (
@@ -96,8 +97,10 @@ const page = () => {
           </button>
         </div>
       </div>
-
-      <About/>
+      <div className="bg-white">
+        <About />
+        <WhyChooseUs />
+      </div>
     </>
   );
 };

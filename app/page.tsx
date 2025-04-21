@@ -5,6 +5,7 @@ import homeic from "./imgs/homeic.svg";
 import pricerg from "./imgs/monetary.svg";
 import About from "./components/About";
 import WhyChooseUs from "./components/WhyChooseUs";
+import Homes from "./components/Homes";
 
 const page = () => {
   return (
@@ -97,9 +98,10 @@ const page = () => {
           </button>
         </div>
       </div>
-      <div className="bg-white">
+      <div className="bg-white space-y-20">
         <About />
         <WhyChooseUs />
+        <Homes/>
       </div>
     </>
   );

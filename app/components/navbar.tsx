@@ -45,9 +45,9 @@ export default function Navbar() {
           alt="Picture of the login"
         />
 
-        <button className="bg-[#2B1B12] w-32 h-11 rounded-lg text-white">
+        <Link href='/signup' className="bg-[#2B1B12] w-32 h-11 rounded-lg text-white flex items-center justify-center font-[montexbold] leading-2 hover:opacity-80">
           Sign In
-        </button>
+        </Link>
       </div>
     </nav>
   );
